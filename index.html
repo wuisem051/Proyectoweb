@@ -65,12 +65,12 @@ r=((parseFloat(a1)*0.14)*1)+parseFloat(a1);
         
           if (a2 > 500)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 500$");
+      alert("Este plan solo es válido para valores entre 50$ y 500$");
       return false;
    }
-        if (a2 < 100)
+        if (a2 < 50)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 500$");
+      alert("Este plan solo es válido para valores entre 50$ y 500$");
       return false;
    }
 
@@ -85,18 +85,18 @@ r=((parseFloat(a2)*0.20)*1)+parseFloat(a2);
         var a3=verificar("a3");
         
         
-                  if (a3 > 3000)
+                  if (a3 > 6000)
    {
-      alert("Este plan solo es válido para valores entre 500$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 6.000$");
       return false;
    }
-        if (a3 < 500)
+        if (a3 < 100)
    {
-      alert("Este plan solo es válido para valores entre 500$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 3.000$");
       return false;
    }
 
-r=((parseFloat(a3)*0.30)*1)+parseFloat(a3);
+r=((parseFloat(a3)*0.35)*1)+parseFloat(a3);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa3").value=r;
     }
@@ -108,16 +108,16 @@ r=((parseFloat(a3)*0.30)*1)+parseFloat(a3);
         
          if (a4 > 12000)
    {
-      alert("Este plan solo es válido para valores entre 3.000$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
       return false;
    }
-        if (a4 < 3000)
+        if (a4 < 200)
    {
-      alert("Este plan solo es válido para valores entre 3.000$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
       return false;
    }
 
-r=((parseFloat(a4)*0.30)*1)+parseFloat(a4);
+r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa4").value=r;
     }         
@@ -206,7 +206,7 @@ r=((parseFloat(a4)*0.30)*1)+parseFloat(a4);
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" >
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #FFC300  "  >Inversión Garantizada</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color:#3498DB  "  >Inversión Garantizada</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -216,18 +216,19 @@ r=((parseFloat(a4)*0.30)*1)+parseFloat(a4);
               <a class="nav-link js-scroll-trigger" href="#contacto">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
-           
-<a class="nav-link js-scroll-trigger" href="#team">Marqueting</a>
-
-             <a class="nav-link js-scroll-trigger" href="#services"></a>
+<a class="nav-link js-scroll-trigger" href="#services">Crea una cuenta</a>
+           </li>
+            <li class="nav-item">
+       
+ <a class="nav-link js-scroll-trigger" href="#team">Marqueting</a>
             </li>
             <li class="nav-item">
-             
-          <a class="nav-link js-scroll-trigger" href="#portafolio">Calcular Ganancias</a>
-
+         
+          <a class="nav-link js-scroll-trigger" href="#portafolio">Calcular Ganancias</a>     
             </li>
-            <li class="nav-item">
-              
+
+ 
+          
             </li>
           </ul>
         </div>
@@ -240,7 +241,7 @@ r=((parseFloat(a4)*0.30)*1)+parseFloat(a4);
             
             
  <div class="col-lg-10 mx-auto"> <div class="text1">
-            <h1 class="text-uppercase" style="color: #FFC300  "  > 
+            <h1 class="text-uppercase" style="color: #fff"  > 
                 <div class="opacity">  <strong  >Inversión rentable</strong> </div>
               </h1> </div>
      
@@ -255,14 +256,13 @@ Aceptamos depósitos con: </font>
 <img class="img-fluid" src="img/2.png" width="50" height="50" alt="">  <img class="img-fluid" src="img/4.png" width="60" height="60" alt=""> <img class="img-fluid" src="img/5.png" width="50" height="50" alt=""> <img class="img-fluid" src="img/6.png" width="60" height="60" alt=""> <img class="img-fluid" src="img/3.png" width="60" height="60" alt="">
 
               </pre></div> 
-               </div> 
+               </div>
+                       <a class="col-lg-12 mx-auto">
+               <a class="btn btn-light btn-xl js-scroll-trigger" href="#service"> Inicie sesión </a>
               
-              
-            
-              
-            <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #C70039" href="#about">Inicie sesión</a>
-              
-             <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #C70039" href="#about">Registrarse</a> 
+                 <a class="col-lg-12 mx-auto">
+               <a class="btn btn-light btn-xl js-scroll-trigger" href="#service"> Registrarse </a>
+
               
           </div>
 <div class="col-lg-4 mx-auto">
@@ -280,7 +280,7 @@ Aceptamos depósitos con: </font>
           <div class="col-lg-10 mx-auto text-center">
             <h1 class="section-heading"   >SOBRE NOSOTROS</h1>
             <hr class="my-4">
-            <p class="text-muted mb-4">Con nuestro equipo de profesionales no tiene nada que preocuparse su inversión esta segura.</p>
+            <p class="text-muted mb-4">!Con nuestro equipo de profesionales no tiene nada que preocuparse su inversión esta segura¡.</p>
             
 <p class="text-muted mb-4">Hoy, una de las áreas de más rápido crecimiento es el mercado de divisas. En esta área, miles de millones de dólares están siendo circulados, y la tasa del dólar seguramente crecerá. Todos estos factores indican que las inversiones en el mercado de divisas garantizan ganancias rápidas y altas. 
 
@@ -290,14 +290,13 @@ Aceptamos depósitos con: </font>
 
 <p class="text-muted mb-4">Los analistas de nuestra compañía en el curso de su trabajo determinaron el área de inversión más prometedora: invertir en el mercado de divisas. Por lo tanto, decidimos crear un fondo de inversión para tener éxito en el campo de la inversión. El personal de nuestra empresa incluye un gran número de profesionales con muchos años de experiencia que están bien versados ​​en el mercado de inversión. </p>
 
-<p class="text-muted mb-4">Hemos desarrollado un plan tarifario único que permitirá que cada uno de nuestros inversionistas.</p>
+<p class="text-muted mb-4">Hemos desarrollado un plan tarifario único que permitirá que cada uno de nuestros inversionistas ganar de manera muy rapida y constante.</p>
 
 <p class="text-muted mb-4">Invierta con nosotros, no se prive de la oportunidad de recibir un ingreso permanente estable. Y nuestros empleados harán todo lo necesario para que nuestra cooperación sea una asociación confiable.</p>
           </div>
         </div>
 
-           
-            
+     
           </div>
         </div>
       </div>
@@ -307,23 +306,27 @@ Aceptamos depósitos con: </font>
       <div class="container">
         <div class="row">
                          <div class="col-lg-10 mx-auto text-center">
-            <h1 class="text-faded mb-4" style="color:  #fff" >Plataforma Para Inversiones Rentables.</h1>
+            <h1 class="text-faded mb-4" style="color:  #fff" >¡Plataforma Para Inversiones A Corto Plazo!.</h1>
 
 
-            <p class="text-white mb+2">El objetivo principal de nuestra plataforma de inversion es para ayudar a las personas a aprender todas las herraminetas necesarias para tener exito en los mercados de divisas y de valores:el analisis de los flujos financieros, de forma inteligente invertir en esas monedas para obtener el maximo beneficio de las ofertas y el ahorro de tiempo. </p>
+            <p class="text-white mb+2">El objetivo principal de nuestra plataforma de inversion es para ayudar a las personas y aprender todas las herraminetas necesarias para tener exito en los mercados de divisas y de valores:el analisis de los flujos financieros, de forma inteligente invertir en esas monedas para obtener el maximo beneficio de las ofertas y el ahorro de tiempo. </p>
                              <hr>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Comenzar!</a>
           </div> 
             
-        </div>
-      </div>
+
     </section> 
-  
-<section> <section class="bg-light" id="services">
+     <footer  class="bg-primary text-white">
+          <div class="col-lg-5 mx-auto text-center">
+         <h1> ¡Metodos De Pago! </h1>
+               <img class="img-fluid" src="img/3.png"  width="70" height="50" alt=""> <img class="img-fluid" src="img/2.png"  width="70" height="70" alt=""> <img class="img-fluid" src="img/6.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/4.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/5.png"  width="70" height="50" alt=""> 
+      <p>  </footer>
+
+ <section class="bg-light" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">PASOS SIMPLES PARA MAXIMIZAR SUS BENEFICIOS</h2> 
+            <h2 class="section-heading">¡Pasos Simples Para Maximizar Sus Beneficios!</h2> 
             <hr class="my-4">
           </div>
         </div>
@@ -333,14 +336,14 @@ Aceptamos depósitos con: </font>
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-user-plus mb-3 sr-icons" style="color:#3498DB" ></i>
               <h3 class="mb-3">Crea una cuenta</h3>
-              <p class="text-muted mb-0">Creación de cuenta instantánea y cuenta personal conveniente.</p>
+              <p class="text-muted mb-0">Cree´ una cuenta de manera rapida, registro facil y sencillo.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-line-chart mb-3 sr-icons" style="color:#3498DB" ></i>
               <h3 class="mb-3">Elija un plan de inversión</h3>
-              <p class="text-muted mb-0">Y recargue su cuenta con la cantidad requerida.</p>
+              <p class="text-muted mb-0">Luego recargue su cuenta con la cantidad requerida.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
@@ -350,9 +353,33 @@ Aceptamos depósitos con: </font>
               <p class="text-muted mb-0">Después del periodo, el pago irá a su billetera, que especificó en la configuración.</p>
             </div>
           </div>
+           
+
+    
         </div>
       </div>
-    </section>
+    </section> 
+        </div>
+      </div>
+
+
+
+      <footer  class="bg-primary text-white">
+          <div class="col-lg-5 mx-auto text-center">
+         <h1> ¡Metodos De Pago! </h1>
+               <img class="img-fluid" src="img/3.png"  width="70" height="50" alt=""> <img class="img-fluid" src="img/logo-payeer.png"  width="70" height="70" alt=""> <img class="img-fluid" src="img/signo.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/4.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/perfect-money.png"  width="70" height="50" alt=""> 
+      <p>
+          </p>
+      </div>
+      </footer>
+
+        </div>
+      </div>
+
+
+
+
+    
       <section  class="bg-light" id="team">
       <div class="container">
         <div class="row">
@@ -379,7 +406,7 @@ Aceptamos depósitos con: </font>
               <i class="fa fa-4x fa-sitemap mb-3 sr-icons" style="color:#3498DB" ></i>
               <h2 class="mb-3">Plan Avanzado</h2>
               <p class="text-muted mb+2">Intereses del deposito: 20.00% </p>
-             <p class="text-muted mb+2">Contribución mínima: 100$ </p>   
+             <p class="text-muted mb+2">Contribución mínima: 50$ </p>   
                 <p class="text-muted mb+2">Contribución máxima: 500$  </p>
                  <p class="text-muted mb+2">Plazo del deposito: 25 días </p>
             </div>
@@ -388,9 +415,9 @@ Aceptamos depósitos con: </font>
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa fa-tasks mb-3 sr-icons" style="color:#3498DB" ></i>
               <h2 class="mb-3">Plan Premium</h2>
-              <p class="text-muted mb+2">Intereses del deposito: 30.00% </p>
-             <p class="text-muted mb+2">Contribución mínima: 500$ </p>   
-                <p class="text-muted mb+2">Contribución máxima: 3.000$ </p>
+              <p class="text-muted mb+2">Intereses del deposito: 35.00% </p>
+             <p class="text-muted mb+2">Contribución mínima: 100$ </p>   
+                <p class="text-muted mb+2">Contribución máxima: 6.000$ </p>
                  <p class="text-muted mb+2">Plazo del deposito: 35 días </p>
             </div>
           </div>
@@ -398,10 +425,10 @@ Aceptamos depósitos con: </font>
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond mb-3 sr-icons" style="color:#3498DB" ></i>
               <h2 class="mb-3">Plan Diamante</h2>
-              <p class="text-muted mb+2">Intereses del deposito: 40.00%</p>
-             <p class="text-muted mb+2">Contribución mínima: 3.000$ </p>   
+              <p class="text-muted mb+2">Intereses del deposito: 45.00%</p>
+             <p class="text-muted mb+2">Contribución mínima: 200$ </p>   
                 <p class="text-muted mb+2">Contribución máxima: 12.000$ </p>
-                 <p class="text-muted mb+2">Plazo del deposito: 45 días </p>
+                 <p class="text-muted mb+2">Plazo del deposito: 60 días </p>
             </div>
           </div>
         </div>
@@ -494,7 +521,7 @@ Aceptamos depósitos con: </font>
     <div class="container">
 	   <div class="row">
 		  <div class="col-md-4 login-sec">
-		      <h2 class="text-center">Inicia sesión</h2>
+		      <h2 class="text-center">Registro</h2>
               <form class="login-form">
                   <div class="form-group">
                       <label for="exampleInputEmail1" class="text-uppercase">Nombre de usuario</label>
@@ -573,10 +600,155 @@ Aceptamos depósitos con: </font>
           </div>
         </div>
 
-    </section>
+</section>
+ 
+   
 
+    
+        <section class="bg-info" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center"><h1>! Pruebas De Pago ¡.</h1>
+            
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+  
+        
+                     
+ <table align="center">
+<tr>
+
+<td style="">
+<div class="stats_1" style="width: 300px;"><div class="container">
+        <div class="row">
+          <div class="col-lg+4 col-md+4 text-center">
+            <div class="service-box mt-3 mx-auto">
+  
+               <h4><img src="img/uploading.png"
+                                 alt="">Recentes Depositos</h4> <hr class="my-12">
+
+<div class="statistic_el_titl cfix" style="width: 300px;"><center> <center></div>
+<li><span class="deposit-block-price">auwrakasih</span><span
+                                        class="deposit-block-title">[000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title"> [000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title"> [000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[0000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[0000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[0000]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[0000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">user</span><span
+                                        class="deposit-block-title">[000$]</span></li>  
+ 
+
+</div>
+</td>
+<td width="100px">
+&nbsp;&nbsp;
+</td>
+<td style="">
+<div class="stats_1" style="width: 300px;"><div class="container">
+        <div class="row">
+          <div class="col-lg+4 col-md+3 text-center">
+            <div class="service-box mt-3 mx-auto">
+  
+               <h4><img src="img/upl.png"
+                                 alt="">Recentes pagos</h4> <hr class="my-12">
+
+<div class="statistic_el_titl cfix" style="width: 300px;"><center><center></div>
+<li><span class="deposit-block-price">payingub</span><span
+                                        class="deposit-block-title"> [100$]</span></li>
+                            
+                                <li><span class="deposit-block-price">payislub</span><span
+                                        class="deposit-block-title"> [20$]</span></li>
+                            
+                                <li><span class="deposit-block-price">winerungan</span><span
+                                        class="deposit-block-title"> [34$]</span></li>
+                            
+                                <li><span class="deposit-block-price">coco2635</span><span
+                                        class="deposit-block-title"> [34$]</span></li>
+                            
+                                <li><span class="deposit-block-price">ismailporta</span><span
+                                        class="deposit-block-title"> [20$]</span></li>
+                            
+                                <li><span class="deposit-block-price">netoarthu12</span><span
+                                        class="deposit-block-title"> [3000$]</span></li>
+                            
+                                <li><span class="deposit-block-price">callmemb</span><span
+                                        class="deposit-block-title"> [289$]</span></li>
+                            
+                                <li><span class="deposit-block-price">profitsetgains</span><span
+                                        class="deposit-block-title"> [1100$]</span></li>
+                            
+                                <li><span class="deposit-block-price">laurent</span><span
+                                        class="deposit-block-title"> [3400$]</span></li>
+                            
+                                <li><span class="deposit-block-price">emmadurand</span><span
+                                        class="deposit-block-title"> [244$]</span></li>  
+
+
+</div>
+</td>
+
+<td width="100px">
+&nbsp;&nbsp;
+</td>
+<td style="">
+<div class="stats_1" style="width: 300px;"><div class="container">
+        <div class="row">
+          <div class="col-lg+4 col-md+3 text-center">
+            <div class="service-box mt-3 mx-auto">
+  
+               <h4><img src="img/uploading.png"
+                                 alt="">Top Referidos</h4> <hr class="my-12">
+
+<div class="statistic_el_titl cfix" style="width: 300px;"><center><center></div>
+<div class="statistic_el cfix" style="width: 300px;">dobrowels<span>  617 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Fantom<span>  495 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">MrEvgen<span>  362 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">vlad007<span>  320 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Anna95<span>  284 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Olegos<span>  193 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Pantera<span>  157 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Fenix<span>  126 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">Timon777<span>  105 </span></div>
+<div class="statistic_el cfix" style="width: 300px;">elena<span>   79 </span></div>
+ 
+
+
+</div>
+</td>
+
+</tr>
+</table>
+
+                
+</section>
       <footer  class="bg-dark text-white">
-          <div class="col-lg-10 mx-auto text-center">
+          <div class="col-lg-5 mx-auto text-center">
          <h3> ¡TU DINERO ESTÁ PROTEGIDO! </h3>
                <img class="img-fluid" src="img/f1.png"  alt=""><img class="img-fluid" src="img/f3.png" alt=""> <img class="img-fluid" src="img/f2.png"  alt="">
       <p> Copyright © INVERSION GARANTIZADA 2018 TODOS LOS DERECHOS RESERVADOS

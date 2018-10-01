@@ -82,7 +82,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #FFC300;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -92,7 +92,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFC300;
+  color: #FFC300(126, 119, 98);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #FFC300;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -144,11 +144,11 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #FFC300;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color:#FFC300;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #FFC300;
@@ -303,10 +303,45 @@ header.masthead p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: #FFC300;
   background-color: #ee4b28 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+  .marketing-wrapper {
+    flex-direction: column;
+  }
+  .marketing-block {
+    margin-bottom: 10px;
+  }
+  .marketing-calc {
+    margin: 20px 0 20px 0;
+  }
+  .marketing-calc input {
+    margin: auto;
+    width: 25%;
+  }
+  .deposit-block {
+    width: 100%;
+    margin-right: 30px;
+  }
+  .advantages-block-wrapper {
+    flex-direction: column;
+  }
+  .advantages-block {
+    width: 100%;
+  }
+  .sertificats img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .payment-block {
+    flex-direction: column;
+    padding: 0;
+  }
+  .payment-block .item {
+    padding: 20px 0;
+  }
