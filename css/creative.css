@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #FFC300;
+  border-color:#3498DB;
 }
 
 hr.light {
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #FFC300 ;
+  color: #3498DB ;
 }
 
 h1,
@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #FFC300 !important;
+  background-color:#3498DB !important;
 }
 
 .bg-dark {
@@ -82,7 +82,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #FFC300;
+  background-color: #fff;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -92,12 +92,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFC300(126, 119, 98);
+  color:#3498DB;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #FFC300;
+  color: #3498DB;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -110,12 +110,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #FFC300;
+  color: #3498DB;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #FFC300 !important;
+  color: #3498DB !important;
   background-color: transparent;
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #FFC300;
+    color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -144,17 +144,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #FFC300;
+    color: #fff;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color:#FFC300;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #FFC300;
+    color:#3498DB;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #FFC300;
+    color: #3498DB;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -162,7 +162,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #FFC300;
+    color: #3498DB;
   }
 }
 
@@ -282,7 +282,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #FFC300 !important;
+  color: #3498DB !important;
 }
 
 .btn {
@@ -298,55 +298,15 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #FFC300;
-  border-color: #FFC300;
+  background-color: #3498DB;
+  border-color: #3498DB;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #FFC300;
+  color: #fff;
   background-color: #ee4b28 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
-
-  .marketing-wrapper {
-    flex-direction: column;
-  }
-  .marketing-block {
-    margin-bottom: 10px;
-  }
-  .marketing-calc {
-    margin: 20px 0 20px 0;
-  }
-  .marketing-calc input {
-    margin: auto;
-    width: 25%;
-  }
-  .deposit-block {
-    width: 100%;
-    margin-right: 30px;
-  }
-  .advantages-block-wrapper {
-    flex-direction: column;
-  }
-  .advantages-block {
-    width: 100%;
-  }
-  .sertificats img {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-  .payment-block {
-    flex-direction: column;
-    padding: 0;
-  }
-  .payment-block .item {
-    padding: 20px 0;
-  }
-
-
-
-
-

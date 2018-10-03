@@ -9,124 +9,106 @@
     <meta name="author" content="">
 
     <title>Inversión Garantizada</title>
-
+      
+<STYLE type="text/css">
+  P.mipar {text-align: right}
+ </STYLE>
+      
       <script type="text/javascript">
-
- <!-- **********************************************************************************************************************************************-->
-
-
-
+ <!-- **********************************************************************************************************************************************--> 
  function retornar(num){
     var anterior=document.fo.valores.value;
     document.getElementById("valores").value=anterior+num;
 }
-
 function eliminar(){
     var anterior=document.fo.valores.value;
     var nuevovalor=anterior.substring(0,anterior.length-1);
     document.getElementById("valores").value=nuevovalor;
 }
-
 function eliminar_todo(){
     document.fo.valores.value="";
 }
-
-
-
 // **************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
-
-
-
-
-
+          
+ 
+          
+          
  function plan1()
     {
         var a1=verificar("a1");
-
-  if (a1 >50)
+        
+  if (a1 >5)
    {
-      alert("Este plan solo es válido para valores entre 2$ y 50$");
+      alert("Este plan solo es válido para valores entre 1$ y 5$");
       return false;
    }
-        if (a1 < 2)
-   {
-      alert("Este plan solo es válido para valores entre 2$ y 50$");
-      return false;
-   }
-
-r=((parseFloat(a1)*0.14)*1)+parseFloat(a1);
+r=((parseFloat(a1)*0.05)*30)+parseFloat(a1);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa1").value=r;
     }
-
   function plan2()
     {
         var a2=verificar("a2");
-
-          if (a2 > 1000)
+        
+          if (a2 > 20)
    {
-      alert("Este plan solo es válido para valores entre 50$ y 1000$");
+      alert("Este plan solo es válido para valores entre 5$ y 20$");
       return false;
    }
-        if (a2 < 50)
+        if (a2 < 5)
    {
-      alert("Este plan solo es válido para valores entre 50$ y 1000$");
+      alert("Este plan solo es válido para valores entre 5$ y 20$");
       return false;
    }
-
-
-r=((parseFloat(a2)*0.20)*1)+parseFloat(a2);
+r=((parseFloat(a2)*0.08)*30)+parseFloat(a2);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa2").value=r;
     }
-
+          
   function plan3()
     {
         var a3=verificar("a3");
-
-
-                  if (a3 > 3000)
+        
+        
+                  if (a3 > 5000)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 30$ y 5000$");
       return false;
    }
-        if (a3 < 100)
+        if (a3 < 30)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 30$ y 5000$");
       return false;
    }
-
-r=((parseFloat(a3)*0.35)*1)+parseFloat(a3);
+r=((parseFloat(a3)*0.15)*25)+parseFloat(a3);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa3").value=r;
     }
-
-
+          
+          
   function plan4()
     {
         var a4=verificar("a4");
-
-         if (a4 > 12000)
+        
+                  if (a4 > 8000)
    {
-      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 200$ y 8000$");
       return false;
    }
         if (a4 < 200)
    {
-      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 200$ y 8000$");
       return false;
    }
-
-r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
+r=((parseFloat(a4)*0.20)*23)+parseFloat(a4);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa4").value=r;
-    }
-
-
-
-
-
-
+    }         
+          
+          
+          
+          
+          
     function verificar(id)
     {
         var obj=document.getElementById(id);
@@ -145,12 +127,10 @@ r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
             return 0;
         }
     }
-
     function validate_importe(value,decimal)
     {
         if(decimal==undefined)
             decimal=0;
-
         if(decimal==1)
         {
             // Permite decimales tanto por . como por ,
@@ -159,29 +139,25 @@ r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
             // Numero entero normal
             var patron=new RegExp("^([0-9])*$")
         }
-
         if(value && value.search(patron)==0)
         {
             return true;
         }
         return false;
     }
-
- <!-- **********************************************************************************************************************************************-->
-
+ <!-- **********************************************************************************************************************************************--> 
  </script>
-
+      
     <style>
-
-
+        
+      
 .opacity{
-
    background-color:rgb(23, 32, 42  );
    opacity:0.8; /* Opacidad 60% */
 }
-
+        
         </style>
-
+      
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -195,9 +171,9 @@ r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
-
-
-
+      
+      
+      
 
   </head>
 
@@ -206,30 +182,23 @@ r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container" >
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"  >Inversión Garantizada</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #FFC300  "  >Inversión Garantizada</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="about.html">Sobre nosotros</a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="about">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-<a class="nav-link js-scroll-trigger" href="#services">Crea una cuenta</a>
-           </li>
-            <li class="nav-item">
-
- <a class="nav-link js-scroll-trigger" href="#team">Marqueting</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Marketing</a>
             </li>
             <li class="nav-item">
-
-          <a class="nav-link js-scroll-trigger" href="#portafolio">Calcular Ganancias</a>
+              <a class="nav-link js-scroll-trigger" href="#portafolio">Calcula tus ganancias</a>
             </li>
-
- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Registro</a>
-
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Inicia sesión</a>
             </li>
           </ul>
         </div>
@@ -239,181 +208,114 @@ r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
-
-
+            
+            
  <div class="col-lg-10 mx-auto"> <div class="text1">
-            <h1 class="text-uppercase" style="color: #fff"  >
+            <h1 class="text-uppercase" style="color: #FFF  "  > 
                 <div class="opacity">  <strong  >Inversión rentable</strong> </div>
               </h1> </div>
-
+     
           </div>
-
+            
           <div class="col-lg-6 mx-auto" > <div class="text1"> <div class="opacity">
               <hr>
               <pre class="text-faded mb-5" style=" color: #fff"  > <font size="5" face="arial" >¡Beneficios a corto plazo!,
 Aceptamos depósitos con: </font>
-
+              
 
 <img class="img-fluid" src="img/2.png" width="50" height="50" alt="">  <img class="img-fluid" src="img/4.png" width="60" height="60" alt=""> <img class="img-fluid" src="img/5.png" width="50" height="50" alt=""> <img class="img-fluid" src="img/6.png" width="60" height="60" alt=""> <img class="img-fluid" src="img/3.png" width="60" height="60" alt="">
 
-              </pre></div>
-               </div>
-                       <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #FFF" href="inicio.html"> Inicie sesión </a>
-
-                 <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #FFF" href=""> Registrarse </a>
-
-
+              </pre></div> 
+               </div> 
+              
+              
+            
+              
+            <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #FFF" href="#ini">Inicie sesión</a>
+              
+             <a class="btn btn-primary btn-xl js-scroll-trigger"  style="color: #FFF" href="#">Registrarse</a> 
+              
           </div>
 <div class="col-lg-4 mx-auto">
    <hr>
     <img class="img-fluid" src="img/1.png"  alt="">
-          </div>
+          </div>  
         </div>
       </div>
     </header>
-
-
-
-
-
-              <section class="bg-primary">
+    
+      
+              <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
                          <div class="col-lg-10 mx-auto text-center">
-            <h1 class="text-faded mb-4" style="color:  #fff" >¡Plataforma Para Inversiones A Corto Plazo!.</h1>
-
-
-            <p class="text-white mb+2">El objetivo principal de nuestra plataforma de inversion es para ayudar a las personas y aprender todas las herraminetas necesarias para tener exito en los mercados de divisas y de valores:el analisis de los flujos financieros, de forma inteligente invertir en esas monedas para obtener el maximo beneficio de las ofertas y el ahorro de tiempo. </p>
+            <h2 class="text-faded mb-4" style="color: #000" >Usted puede obtener ganancias en inversión garantizada con solo tres simples pasos.</h2>
                              <hr>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Comenzar!</a>
-           </div> 
+          </div> 
             
         </div>
       </div>
     </section> 
+      
+      
 
- <section class="bg-light" id="services">
+    <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">¡Pasos Simples Para Maximizar Sus Beneficios!</h2>
+            <h2 class="section-heading">3 PASOS SIMPLES PARA MAXIMIZAR SUS BENEFICIOS</h2> 
             <hr class="my-4">
           </div>
         </div>
-
+      </div>
+      <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-user-plus mb-3 sr-icons" style="color:#3498DB" ></i>
+              <i class="fa fa-4x fa-user text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Crea una cuenta</h3>
-              <p class=" mb-0">Cree´ una cuenta de manera rapida, registro facil y sencillo.</p>
+              <p class="text-muted mb-0">Creación de cuenta instantánea y cuenta personal conveniente.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-line-chart mb-3 sr-icons" style="color:#3498DB" ></i>
+              <i class="fa fa-4x fa-bookmark text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Elija un plan de inversión</h3>
-              <p class="mb-0">Luego recargue su cuenta con la cantidad requerida.</p>
+              <p class="text-muted mb-0">Y recargue su cuenta con la cantidad requerida.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-money mb-3 sr-icons" style="color:#3498DB" ></i>
+              <i class="fa fa-4x fa-money text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Retire sus fondos</h3>
-              <p class="mb-0">Después del periodo, el pago irá a su billetera, que especificó en la configuración.</p>
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
-    </section>
-    
-
-
-
-         <footer  class="p-3 mb-0 bg-primary text-white">
-         <div class="col-lg-5 mx-auto text-center">
-         <h1> ¡Metodos De Pago! </h1>
-               <img class="img-fluid" src="img/3.png"  width="70" height="50" alt=""> <img class="img-fluid" src="img/2.png"  width="70" height="70" alt=""> <img class="img-fluid" src="img/6.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/4.png"  width="70" height="50" alt="">  <img class="img-fluid" src="img/5.png"  width="70" height="50" alt=""> <hr>
-      </div>
-      </footer>
-    
-
-
-      <section  class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Planes Tarifarios Para Maximizar Sus Depositos</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-coffee mb-3 sr-icons" style="color:#3498DB" ></i>
-              <h2 class="mb-3">Plan Básico</h2>
-              <p class=" mb+2">Beneficio del deposito: 14.00% </p>
-             <p class=" mb+2">Contribución mínima: 2$ </p>
-                <p class=" mb+2">Contribución máxima: 50$ </p>
-                 <p class="mb+2">Plazo del deposito: 15 días </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-sitemap mb-3 sr-icons" style="color:#3498DB" ></i>
-              <h2 class="mb-3">Plan Avanzado</h2>
-              <p class="mb+2">Beneficio del deposito: 20.00% </p>
-             <p class="mb+2">Contribución mínima: 50$ </p>
-                <p class=" mb+2">Contribución máxima: 1000$  </p>
-                 <p class=" mb+2">Plazo del deposito: 25 días </p>
-            </div>
-          </div>
-                      <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa fa-tasks mb-3 sr-icons" style="color:#3498DB" ></i>
-              <h2 class="mb-3">Plan Premium</h2>
-              <p class=" mb+2">Beneficio del deposito: 35.00% </p>
-             <p class=" mb+2">Contribución mínima: 100$ </p>
-                <p class=" mb+2">Contribución máxima: 3.000$ </p>
-                 <p class=" mb+2">Plazo del deposito: 35 días </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond mb-3 sr-icons" style="color:#3498DB" ></i>
-              <h2 class="mb-3">Plan Diamante</h2>
-              <p class=" mb+2">Beneficio del deposito: 45.00%</p>
-             <p class=" mb+2">Contribución mínima: 200$ </p>
-                <p class=" mb+2">Contribución máxima: 12.000$ </p>
-                 <p class=" mb+2">Plazo del deposito: 60 días </p>
+              <p class="text-muted mb-0">El pago irá a su billetera.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-                <section class="bg-info text-white" id="portafolio" >
+      
+      
+    
+                <section class="bg-dark text-white" id="portafolio" >
       <div class="container text-center">
            <div class="row">
 <div class="col-lg-12 mx-auto">
     <hr>
-               <h2>Calcule su plan y compare los beneficios </h2>
+               <h2>Calcula tu plan y compara los beneficios </h2>
     <hr>
-               </div>
+               </div>  
           <div class="col-lg-5 mx-auto">
-    <img class="img-fluid" src="img/busi.jpg"  alt="">
-          </div>
-
+    <img class="img-fluid" src="img/calculo.png"  alt="">
+          </div>  
+               
                <div class="col-lg-7 mx-auto">
-
+                   
                    <h3>Calcular ganacias</h3>
                    <hr>
-
-               <table >
+                 
+               <table > 
 
       <tr>
         <td>   Elija un plan   </td>
@@ -425,49 +327,49 @@ Aceptamos depósitos con: </font>
 
       </tr>
                          <tr>
-          <td> <hr></td>
-           <td> </td>
-        <td>  </td>
+          <td> <hr></td>       
+           <td> </td>        
+        <td>  </td>    
  <td>  </td>
-
+          
       </tr>
 
-      <tr>
+      <tr> 
           <td> Plan básico: </td>
-
+  
            <td> <input type="text" id="a1"  size="20" class="Fields"></td>
     <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick=" plan1()"> Calcular </button> </td>
-          <td> <input type="text" id="fa1" disabled value="0" size="5" class="Fields" ></td>
+          <td> <input type="text" id="fa1" disabled value="0" size="5" class="Fields" ></td>   
       </tr>
             <tr>
           <td> Plan avanzado: </td>
-
+  
            <td> <input type="text" id="a2"   size="20" class="Fields"></td>
 <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan2()"> Calcular </button> </td>
           <td> <input type="text" id="fa2" disabled value="0" size="5" class="Fields" ></td>
-
+          
       </tr>
                          <tr>
           <td> Plan platino: </td>
-
+  
            <td> <input type="text" id="a3"  size="20" class="Fields"></td>
- <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan3()"> Calcular </button> </td>
+ <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan3()"> Calcular </button> </td>                            
           <td> <input type="text" id="fa3" disabled value="0" size="5" class="Fields" ></td>
-
+          
       </tr>
                          <tr>
           <td> Plan oro: </td>
-
+  
            <td> <input type="text" id="a4"   size="20" class="Fields"></td>
 <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan4()"> Calcular </button> </td>
           <td> <input type="text" id="fa4" disabled value="0" size="5" class="Fields" ></td>
-
+          
       </tr>
-
-
-</table>
-
-
+    
+      
+</table> 
+                             
+               
                   </div>
                <div class="col-lg-12 mx-auto">
                <a class="btn btn-light btn-xl js-scroll-trigger" href="#service"> Ver más </a>
@@ -475,15 +377,68 @@ Aceptamos depósitos con: </font>
              </div>
       </div>
     </section>
-
-
-
-
-        <section  class="bg-dark text-white" id="about">
+      
+          <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">PLANES TARIFARIOS PARA MAXIMIZAR SUS DEPÓSITOS</h2> 
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-coffee text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Plan básico</h3>
+              <p class="text-muted mb-0">Intereses del deposito: 5.00% </p>
+             <p class="text-muted mb-0">Contribución mínima: 1$ </p>   
+                <p class="text-muted mb-0">Contribución máxima: 5$ </p>
+                 <p class="text-muted mb-0">Plazo del deposito: 30 días </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Plan avanzado</h3>
+              <p class="text-muted mb-0">Intereses del deposito: 8.00% </p>
+             <p class="text-muted mb-0">Contribución mínima: 5$ </p>   
+                <p class="text-muted mb-0">Contribución máxima: 20$  </p>
+                 <p class="text-muted mb-0">Plazo del deposito: 30 días </p>
+            </div>
+          </div>
+                      <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heartbeat text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Plan platino</h3>
+              <p class="text-muted mb-0">Intereses del deposito: 15.00% </p>
+             <p class="text-muted mb-0">Contribución mínima: 30$ </p>   
+                <p class="text-muted mb-0">Contribución máxima: 5000$ </p>
+                 <p class="text-muted mb-0">Plazo del deposito: 25 días </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Plan oro</h3>
+              <p class="text-muted mb-0">Intereses del deposito: 20.00%</p>
+             <p class="text-muted mb-0">Contribución mínima: 200$ </p>   
+                <p class="text-muted mb-0">Contribución máxima: 8000$ </p>
+                 <p class="text-muted mb-0">Plazo del deposito: 23 días </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      
+        <section  class="bg-dark text-white" id="ini">   
     <div class="container">
 	   <div class="row">
 		  <div class="col-md-4 login-sec">
-		      <h2 class="text-center">Registro</h2>
+		      <h2 class="text-center">Inicia sesión</h2>
               <form class="login-form">
                   <div class="form-group">
                       <label for="exampleInputEmail1" class="text-uppercase">Nombre de usuario</label>
@@ -493,7 +448,7 @@ Aceptamos depósitos con: </font>
                       <label for="exampleInputPassword1" class="text-uppercase">Contraseña</label>
                       <input type="password" class="form-control" placeholder="">
                   </div>
-                  <div class="form-check">
+                  <div class="form-check"> 
                       <label class="form-check-label">
                           <small>Registrarse</small>
                       </label>
@@ -510,30 +465,30 @@ Aceptamos depósitos con: </font>
                    </ol>
                    <div class="carousel-inner" role="listbox">
                        <div class="carousel-item active">
-                           <img class="d-block img-fluid" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
+                           <img class="d-block img-fluid" src="img/c1.jpg" alt="First slide">
                            <div class="carousel-caption d-none d-md-block">
-                               <div class="banner-text">
-                                   <h2></h2>
-                                   <p></p>
-                               </div>
+                            <!--   <div class="banner-text">
+                                   <h2>Agregar algo</h2>
+                                   <p>Agregar algo</p>
+                               </div>  -->
                            </div>
                        </div>
                        <div class="carousel-item">
-                           <img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
+                           <img class="d-block img-fluid" src="img/c2.jpg" alt="First slide">
                            <div class="carousel-caption d-none d-md-block">
-                               <div class="banner-text">
-                                   <h2></h2>
-                                   <p></p>
-                               </div>
+                              <!--   <div class="banner-text">
+                                   <h2>Agregar algo</h2>
+                                   <p>Agregar algo</p>
+                               </div>   -->
                            </div>
                        </div>
                        <div class="carousel-item">
-                           <img class="d-block img-fluid" src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg" alt="First slide">
+                           <img class="d-block img-fluid" src="img/c3.jpg" alt="First slide">
                            <div class="carousel-caption d-none d-md-block">
-                               <div class="banner-text">
-                                   <h2></h2>
-                                   <p></p>
-                               </div>
+                           <!--      <div class="banner-text">
+                                   <h2>Agregar algo</h2>
+                                   <p>Agregar algo</p>
+                               </div>   -->
                            </div>
                        </div>
                    </div>
@@ -541,13 +496,11 @@ Aceptamos depósitos con: </font>
            </div>
         </div>
     </div>
-
+              
 </section>
+    
 
- 
-
-
-    <section class="bg-primary text-white" >
+    <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto text-center">
@@ -587,11 +540,11 @@ Aceptamos depósitos con: </font>
  <li>winerungan [34$]</li>
  <li>coco2635 [34$]</li>
  <li>ismailporta [20$]</li>
- <li>netoarthu12 [300$]</li>
- <li>callmemb [29$]</li>
+ <li>netoarthu12 [3000$]</li>
+ <li>callmemb [289$]</li>
  <li>profitsetgains [1100$]</li>
- <li>laurent [00$]</li>
- <li>emmadurand [4$]</li>
+ <li>laurent [3400$]</li>
+ <li>emmadurand [244$]</li>
                   
                   </ul>
                     </div>
@@ -618,7 +571,7 @@ Aceptamos depósitos con: </font>
 
     </section>
 
-        <footer  class="bg-dark text-white">
+      <footer  class="bg-dark text-white">
           <div class="col-lg-10 mx-auto text-center"> <hr>
          <h3> ¡TU DINERO ESTÁ PROTEGIDO! </h3>
         <p>      <img class="img-fluid" src="img/f1.png"  alt=""><img class="img-fluid" src="img/f3.png" alt=""> <img class="img-fluid" src="img/f2.png"> </p> 
@@ -626,7 +579,7 @@ Aceptamos depósitos con: </font>
           </p> <hr>
       </div>
       </footer>
-   <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
