@@ -316,3 +316,11 @@ header.masthead p {
   background-color:#f1f2f6;
   border-color: #f1f2f6;
 }
+
+
+.marketing-wrapper {
+		flex-direction: column;
+	}
+	.marketing-block {
+		margin-bottom: 10px;
+	}
