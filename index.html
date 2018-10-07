@@ -43,18 +43,18 @@ function eliminar_todo(){
     {
         var a1=verificar("a1");
 
-  if (a1 >50)
+  if (a1 >500)
    {
-      alert("Este plan solo es válido para valores entre 2$ y 50$");
+      alert("Este plan solo es válido para valores entre 2$ y 500$");
       return false;
    }
         if (a1 < 2)
    {
-      alert("Este plan solo es válido para valores entre 2$ y 50$");
+      alert("Este plan solo es válido para valores entre 2$ y 500$");
       return false;
    }
 
-r=((parseFloat(a1)*0.14)*1)+parseFloat(a1);
+r=((parseFloat(a1)*0.28)*1)+parseFloat(a1);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa1").value=r;
     }
@@ -75,7 +75,7 @@ r=((parseFloat(a1)*0.14)*1)+parseFloat(a1);
    }
 
 
-r=((parseFloat(a2)*0.20)*1)+parseFloat(a2);
+r=((parseFloat(a2)*0.42)*1)+parseFloat(a2);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa2").value=r;
     }
@@ -87,16 +87,16 @@ r=((parseFloat(a2)*0.20)*1)+parseFloat(a2);
 
                   if (a3 > 3000)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 3000$");
       return false;
    }
         if (a3 < 100)
    {
-      alert("Este plan solo es válido para valores entre 100$ y 3.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 3000$");
       return false;
    }
 
-r=((parseFloat(a3)*0.35)*1)+parseFloat(a3);
+r=((parseFloat(a3)*0.62)*1)+parseFloat(a3);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa3").value=r;
     }
@@ -106,27 +106,68 @@ r=((parseFloat(a3)*0.35)*1)+parseFloat(a3);
     {
         var a4=verificar("a4");
 
-         if (a4 > 12000)
+         if (a4 > 5000)
    {
-      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 5000$");
       return false;
    }
-        if (a4 < 200)
+        if (a4 < 100)
    {
-      alert("Este plan solo es válido para valores entre 200$ y 12.000$");
+      alert("Este plan solo es válido para valores entre 100$ y 5000$");
       return false;
    }
 
-r=((parseFloat(a4)*0.45)*1)+parseFloat(a4);
+r=((parseFloat(a4)*0.72)*1)+parseFloat(a4);
         // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
         document.getElementById("fa4").value=r;
     }
 
 
 
+function plan5()
+    {
+        var a4=verificar("a5");
+
+         if (a4 > 12000)
+   {
+      alert("Este plan solo es válido para valores entre 100$ y 12000$");
+      return false;
+   }
+        if (a4 < 100)
+   {
+      alert("Este plan solo es válido para valores entre 100$ y 12000$");
+      return false;
+   }
+
+r=((parseFloat(a4)*0.92)*1)+parseFloat(a4);
+        // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
+        document.getElementById("fa5").value=r;
+    }
 
 
 
+  function plan6()
+    {
+        var a4=verificar("a6");
+
+         if (a4 > 20000)
+   {
+      alert("Este plan solo es válido para valores entre 100$ y 20000$");
+      return false;
+   }
+        if (a4 < 100)
+   {
+      alert("Este plan solo es válido para valores entre 100$ y 20000$");
+      return false;
+   }
+
+r=((parseFloat(a4)*1.00)*1)+parseFloat(a4);
+        // realizamos la suma de los valores y los ponemos en la casilla del formulario que contiene el total
+        document.getElementById("fa6").value=r;
+    }
+        
+          
+          
     function verificar(id)
     {
         var obj=document.getElementById(id);
@@ -369,7 +410,7 @@ Aceptamos depósitos con: </font>
                         <div class="marketing-block__section">
                             <img src="img/marktwo.png" alt="marketing">
                             <div class="marketing-block__info">
-                                <div><span>Contribución Mínima: 100$</span> <span  class=" mb-3  info-details">Contribución Maxima: 1000$</span></div>
+                                <div><span>Contribución Mínima: 50$</span> <span  class=" mb-3  info-details">Contribución Maxima: 1000$</span></div>
                                 <div><span>Plazo:</span> <span
                                         class="info-details">25 dias</span></div>
                                 <div><span>Rentabilidad:</span> <span class="info-details">42%</span></div>
@@ -503,14 +544,14 @@ El beneficio de la empresa depende de factores variables.</div>
       </tr>
 
       <tr>
-          <td> Plan básico: </td>
+          <td> Plan I: </td>
 
            <td> <input type="text" id="a1"  size="20" class="Fields"></td>
     <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick=" plan1()"> Calcular </button> </td>
           <td> <input type="text" id="fa1" disabled value="0" size="5" class="Fields" ></td>
       </tr>
             <tr>
-          <td> Plan avanzado: </td>
+          <td> Plan II: </td>
 
            <td> <input type="text" id="a2"   size="20" class="Fields"></td>
 <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan2()"> Calcular </button> </td>
@@ -518,7 +559,7 @@ El beneficio de la empresa depende de factores variables.</div>
 
       </tr>
                          <tr>
-          <td> Plan platino: </td>
+          <td> Plan III: </td>
 
            <td> <input type="text" id="a3"  size="20" class="Fields"></td>
  <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan3()"> Calcular </button> </td>
@@ -526,7 +567,7 @@ El beneficio de la empresa depende de factores variables.</div>
 
       </tr>
                          <tr>
-          <td> Plan oro: </td>
+          <td> Plan IV: </td>
 
            <td> <input type="text" id="a4"   size="20" class="Fields"></td>
 <td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan4()"> Calcular </button> </td>
@@ -534,12 +575,32 @@ El beneficio de la empresa depende de factores variables.</div>
 
       </tr>
 
+   <tr>
+          <td> Plan V: </td>
 
+           <td> <input type="text" id="a5"   size="20" class="Fields"></td>
+<td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan5()"> Calcular </button> </td>
+          <td> <input type="text" id="fa5" disabled value="0" size="5" class="Fields" ></td>
+                   
+        
+        </tr>
+
+   <tr>
+          <td> Plan VI: </td>
+
+           <td> <input type="text" id="a6"   size="20" class="Fields"></td>
+<td> <button name="boton" type="submit" id="vce6b"  class="botones" onclick="plan6()"> Calcular </button> </td>
+          <td> <input type="text" id="fa6" disabled value="0" size="5" class="Fields" ></td>
+                   
+       
+       
+       
+                   
 </table>
 
 
                   </div>
-               <div class="col-lg-12 mx-auto">
+               <div class="col-lg-10 mx-auto">
                <a class="btn btn-light btn-xl js-scroll-trigger" href="#service"> Ver más </a>
                </div>
              </div>
