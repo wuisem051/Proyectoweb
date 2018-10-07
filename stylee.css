@@ -16,10 +16,10 @@ body {font-size: 100%;font-family: 'Montserrat'}
 }
 
 .content-wrapper {
-	width: 100%;
-	max-width: 1170px;
+	width: 120%;
+	max-width: 1290px;
 	margin: auto;
-	padding: 0 20px;
+	padding: 0 30px;
 }
 
 
@@ -36,7 +36,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	padding-bottom: 21px;
 	font-family: "ProximaNovaBold";
 	font-size: 30px;
-	color: #fff;
+	color:#000;
 	text-align: center;
 }
 
@@ -106,7 +106,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 
 .marketing-block__section .info-details {
 	font-family: "ProximaNovaBold";
-	color: #8c1524;
+	color: #000;
 }
 
 .marketing-block__section .info-details-w {
@@ -121,7 +121,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	font-size: 16px;
 	text-decoration: none;
 	color: #000;
-	border: 2px solid #8d1524;
+	border: 2px solid #3498DB;
 	-webkit-transition: .4s ease;
 	-o-transition: .4s ease;
 	transition: .4s ease;
@@ -130,7 +130,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .marketing-block__section .set-pan:hover {
 	position: relative;
 	top: 1px;
-	background: #8d1524;
+	background: #3498DB;
 	color: #fff;
 }
 
@@ -308,7 +308,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 
 .deposit-block li {
 	height: 33px;
-    border: 2px solid #8d1524;
+    border: 2px solid #3498DB;
     margin-bottom: 15px;
     background: #fff;
 }
@@ -324,7 +324,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
     height: 29px;
     float: left;
     line-height: 29px;
-    background: #8d1524;
+    background:#3498DB ;
     color: #fff;
     position: relative;
     font-family: "ProximaNovaBold";
@@ -336,7 +336,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
     height: 29px;
     float: left;
     line-height: 29px;
-    background: #8d1524;
+    background: #3498DB;
     color: #fff;
     position: relative;
     font-family: "ProximaNovaBold";
@@ -362,7 +362,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	right:-33px;
 	border-style: solid;
 	border-width: 14px 20px 15px 13px;
-	border-color: transparent transparent transparent #8d1524;
+	border-color: transparent transparent transparent #3498DB;
 }
 
 .deposit-block img {
@@ -380,3 +380,15 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	line-height: 25px;
 }
 
+.marketing {
+	padding: 34px 0 53px 0;
+	width: 100%;
+	background: url(img/marketing.png) no-repeat;
+	background-size: cover;
+}
+.company {
+	padding: 50px 0 53px 0;
+	width: 100%;
+	background: url(img/marketing.png) no-repeat;
+	background-size: cover;
+}
