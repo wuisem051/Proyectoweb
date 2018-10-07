@@ -188,7 +188,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .affiliate {
 	width: 100%;
 	padding: 25px 0 36px 0;
-	background: url(../images/afiliate.png) no-repeat;
+	background: url() no-repeat;
 	background-size: cover;
 	background-position: 50% 0;
 }
@@ -219,7 +219,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	padding: 10px;
 	font-family: "ProximaNovaBold";
 	font-size: 18px;
-	color: #fff;
+	color:#FFF  ;
 }
 
 .affiliate-block-case {
@@ -231,8 +231,8 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	font-family: "ProximaNovaBold";
 	text-align: left;
 	line-height: 24px;
-	background: url(../images/affiliate.png) no-repeat;
-	border: 2px solid #fff;
+	background: url(img/affiliate.png) no-repeat;
+	border: 2px solid #FFF  ;
 }
 
 .affiliate-block-crown {
@@ -244,8 +244,8 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	font-family: "ProximaNovaBold";
 	text-align: left;
 	line-height: 24px;
-	background: url(../images/affiliate.png) no-repeat;
-	border: 2px solid #fff;
+	background: url(imG/affiliate.png) no-repeat;
+	border: 2px solid #FFF ;
 }
 
 .affiliate-join {
@@ -259,7 +259,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	font-family: "ProximaNovaBold";
 	cursor: pointer;
 	font-size: 16px;
-	color: #fff;
+	color: #F3040F  ;
 	text-decoration: none;
 	border: 2px solid #fff;
 	-webkit-transition: .4s ease;
@@ -270,14 +270,14 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .affiliate-join:hover {
 	position: relative;
 	top: 1px;
-	background: #fff;
+	background: #F3040F  ;
 	color: #7a121f;
 }
 
 .deposit {
 	width: 100%;
 	padding: 38px 0 25px 0;
-	background: url(../images/header-bg.png) no-repeat;
+	background: url() no-repeat;
 	background-size: cover;
 }
 
