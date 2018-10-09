@@ -1,0 +1,764 @@
+	/* Large desktops and laptops */
+@media screen and (min-width: 1200px) {
+	
+}
+
+@media (min-width: 1170px) and (max-width: 1263px) {
+	.pay-wrapper__form input {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media screen and (min-width: 992px) and (max-width: 1170px) {
+	.main-nav a {
+		font-size: 12px;
+	}
+	.main-nav li img {
+		padding: 0 7px;
+	}
+	.drop-down:after {
+		right: 8px;
+	}
+	.state-account__block img {
+		float: none;
+		margin: 5px auto 0 auto;
+		display: block;
+	}
+	.state-account__amount {
+		float: none;
+		text-align: center;
+	}
+	.select-deposit__form {
+		float: right;
+	}
+	.select-deposit__form input[type="submit"] {
+		display: block;
+		margin-top: 5px;
+		margin-left: 0;
+	}
+	.main-nav li a > i {
+		font-size: 12px;
+	}
+	.pay-wrapper__form input {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.content-wrapper {
+		padding: 0;
+	}
+	.content-wrap h4 {
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+	}
+	.main-nav {
+		width: 100%;
+		height: auto;
+	}
+	.content-wrap {
+		width: 100%;
+		margin-left: 0;
+	}
+	.main-nav a {
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	.main-nav-user {
+		padding: 15px 0 0 0;
+	}
+	.main-nav-user img {
+		display: block;
+		margin: auto;
+	}
+	.main-nav-user .main-nav__welcome {
+		display: block;
+	}
+	.main-nav-user img {
+		float: none;
+	}
+	.main-nav-user div {
+		float: none;
+		text-align: center;
+	}
+	.calc-account__select-term {
+		float: none;
+		width: 100%;
+		padding-top: 20px;
+	}
+	.calc-account__days {
+		flex-direction: column;
+	}
+	.calc-account__days-block {
+		margin-bottom: 10px;
+	}
+	.calc-account__deposit-amount {
+		float: none;
+		width: 100%;
+	}
+	.calc-account__deposit-amount h3 {
+		padding-top: 20px;
+	}
+	.balance {
+		width: 100%;
+		height: auto;
+		padding: 0 0 50px 0;
+	}
+	.balance-content {
+		margin-top: 20px;
+		padding-top: 10px;
+	}
+	.balance-content .amount {
+		margin: 10px 0 0 0;
+	}
+	.select-deposit {
+		width: 100%;
+	}
+	.select-deposit__table {
+		flex-direction: column;
+		align-items: center;
+	}
+	.select-deposit__table div {
+		width: 50%;
+	}
+	.state-account__wrap {
+		flex-direction: column;
+	}
+	.state-account__block img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	.state-account__amount {
+		float: none;
+		text-align: center;
+	}
+	.list-active-deposit__table {
+		flex-direction: column;
+	}
+	.list-active-deposit__table-block {
+		width: 40%;
+		justify-content: center;
+	}
+	.calc-account__days {
+		padding-top: 0;
+	}
+	.calc-account h3 {
+		padding-bottom: 20px;
+	}
+	.state-account__block {
+		width: 100%;
+	}
+	.state-account__block p {
+		text-align: center;
+	}
+	.main-nav {
+		margin-top: 5px;
+		float: none;
+		text-align: center;
+	}
+	.main-nav li a > i {
+		font-size: 12px;
+	}
+	.main-nav li > ul li a {
+		padding: 15px 20px 15px 30px;
+	}
+	.pay-wrapper__form input {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+	.pay-wrapper h3 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.main-nav {
+		position: static;
+	}
+	header {
+		position: static;
+	}
+	.content-wrap {
+		margin-top: 0;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+	.list-active-deposit__wrap th {
+		font-size: 14px;
+	}
+	td {
+		font-size: 12px;
+	}
+	.content-wrapper {
+		padding: 0;
+	}
+	.content-wrap h4 {
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+	}
+	.toggle-menu {
+		display: block;
+	}
+	.top-menu {
+		position: absolute;
+		top: 70px;
+		right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		display: none;
+		background: #6f141f;
+	}
+	.top-menu-ru a {
+		box-shadow: none;
+	}
+	.top-menu li {
+		display: block;
+		padding-top: 0;
+		padding-right: 0;
+	}
+	.top-menu a {
+		display: block;
+		padding: 20px;
+	}
+	.top-menu a:hover {
+		padding-bottom: 20px;
+		opacity: .9;
+		border-bottom: 0;
+		background: #650b16;
+	}
+	.main-nav a {
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.main-nav-user {
+		padding: 15px 0 0 0;
+	}
+	.main-nav-user img {
+		display: block;
+		margin: auto;
+	}
+	.main-nav-user .main-nav__welcome {
+		display: block;
+	}
+	.main-nav-user img {
+		float: none;
+	}
+	.main-nav-user div {
+		float: none;
+		text-align: center;
+	}
+	.calc-account__select-term {
+		float: none;
+		width: 100%;
+	}
+	.calc-account h3 {
+		padding-bottom: 20px;
+	}
+	.calc-account__days {
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.calc-account__days-block {
+		margin-bottom: 10px;
+	}
+	.calc-account__deposit-amount {
+		float: none;
+		width: 100%;
+	}
+	.calc-account__deposit-amount h3 {
+		padding-top: 20px;
+	}
+	.balance {
+		width: 100%;
+		height: auto;
+		padding: 0 0 50px 0;
+	}
+	.balance-content {
+		padding-top: 10px;
+	}
+	.balance-content .amount {
+		margin: 10px 0 0 0;
+	}
+	.select-deposit {
+		width: 100%;
+	}
+	.select-deposit__table {
+		flex-direction: column;
+		align-items: center;
+	}
+	.select-deposit__table div {
+		width: 70%;
+	}
+	.state-account__wrap {
+		flex-direction: column;
+	}
+	.state-account__block img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	.state-account__amount {
+		float: none;
+		text-align: center;
+	}
+	.list-active-deposit__table {
+		flex-direction: column;
+	}
+	.list-active-deposit__table-block {
+		width: 60%;
+		justify-content: center;
+	}
+	.content-wrap {
+		margin-left: 0;
+	}
+	.main-nav a {
+		padding-left: 0;
+	}
+	.main-nav img {
+		max-width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	.drop-down:after {
+		display: none;
+	}
+	.main-nav__welcome {
+		display: none!important;
+	}
+	.main-nav__login {
+		display: block!important;
+	}
+	.select-deposit__form input[type="text"] {
+		width: 100%;
+	}
+	.select-deposit__form input[type="submit"] {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.calc-account__repl {
+		width: 100%;
+	}
+	.state-account__block {
+		width: 100%;
+	}
+	.state-account__block p {
+		text-align: center;
+	}
+	.list-active-deposit__wrap {
+		flex-direction: column;
+		align-items: left;
+	}
+	.main-nav {
+		width: 100%;
+		height: auto;
+		margin-top: 5px;
+		float: none;
+		text-align: center;
+	}
+	.list-active-deposit__wrap a {
+		width: 100%;
+		padding: 20px 0;
+		margin-bottom: 5px;
+	}
+	.list-active-deposit__block {
+		padding: 20px 0;
+	}
+	.top-menu-ru a, .top-menu-en a {
+		font-size: 12px;
+	}
+	.payment-system h3 {
+		font-size: 18px;
+	}
+	.payment-system-wrap .tr .td {
+		font-size: 14px;
+	}
+	.payment-system__form input[type="submit"] {
+		font-size: 11px;
+	}
+	.history-recharge h3 {
+		font-size: 18px;
+	}
+	.history-recharge-wrapper {
+		flex-direction: column;
+		text-align: center;
+	}
+	.history-recharge-wrapper__block {
+		padding: 10px 0;
+	}
+	.pay-wrapper__form input {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+	.pay-wrapper__block-wrap {
+		flex-direction: column;
+	}
+	.pay-wrapper__form input {
+		display: block;
+		margin: 0 auto 5px auto;
+	}
+	.pay-wrapper h3 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.affilliate-block {
+		width: 70%;
+	}
+	.main-nav {
+		position: static;
+	}
+	.top-menu-en a {
+		margin-left: 0;
+	}
+	.active {
+		display: block;
+		padding: 10px 20px;
+		box-shadow: inset 0 0 0 1px #fff;
+	}
+	.top-menu-lang {
+		display: block;
+		padding: 10px 20px;
+		margin-right: 0;
+	}
+	header {
+		position: static;
+	}
+	.content-wrap {
+		margin-top: 0;
+	}
+}
+
+/* Landscape phones and smaller */
+@media screen and (max-width: 480px) {
+	.list-active-deposit__wrap th {
+		font-size: 14px;
+	}
+	td {
+		font-size: 12px;
+	}
+	.content-wrapper {
+		padding: 0;
+	}
+	.main-nav a {
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.main-nav-user {
+		padding: 15px 0 0 0;
+	}
+	.main-nav-user img {
+		display: block;
+		margin: auto;
+	}
+	.main-nav-user .main-nav__welcome {
+		display: block;
+	}
+	.main-nav-user img {
+		float: none;
+	}
+	.main-nav-user div {
+		float: none;
+		text-align: center;
+	}
+	.calc-account__select-term {
+		float: none;
+		width: 100%;
+	}
+	.calc-account h3 {
+		padding-bottom: 20px;
+	}
+	.calc-account__days {
+		padding-top: 0;
+		flex-direction: column;
+	}
+	.calc-account__days-block {
+		margin-bottom: 10px;
+	}
+	.calc-account__deposit-amount {
+		float: none;
+		width: 100%;
+	}
+	.calc-account__deposit-amount h3 {
+		padding-top: 20px;
+		font-size: 17px;
+	}
+	.balance {
+		width: 100%;
+		height: auto;
+		padding: 0 0 50px 0;
+	}
+	.balance-content {
+		padding-top: 10px;
+	}
+	.balance-content .amount {
+		margin: 10px 0 0 0;
+	}
+	.select-deposit {
+		width: 100%;
+	}
+	.select-deposit__table {
+		flex-direction: column;
+		align-items: center;
+	}
+	.select-deposit__table div {
+		width: 70%;
+	}
+	.state-account__wrap {
+		flex-direction: column;
+	}
+	.state-account__block img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	.state-account__amount {
+		float: none;
+		text-align: center;
+	}
+	.list-active-deposit__table {
+		flex-direction: column;
+	}
+	.list-active-deposit__table-block {
+		width: 80%;
+		justify-content: center;
+	}
+	.toggle-menu {
+		display: block;
+	}
+	.top-menu {
+		position: absolute;
+		top: 70px;
+		right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+		display: none;
+		background: #8d1524;
+	}
+	.top-menu li {
+		display: block;
+		padding-top: 0;
+		padding-right: 0;
+	}
+	.top-menu a {
+		display: block;
+		padding: 20px;
+	}
+	.top-menu a:hover {
+		padding-bottom: 20px;
+		opacity: .9;
+		border-bottom: 0;
+		background: #650b16;
+	}
+	.main-nav {
+		width: 100%;
+		height: auto;
+	}
+	.content-wrap {
+		width: 100%;
+		float: left;
+		margin-left: 0;
+	}
+	.main-nav a {
+		padding-left: 0;
+		text-align: center;
+	}
+	.main-nav img {
+		margin: auto;
+	}
+	.drop-down:after {
+		display: none;
+	}
+	.main-nav__welcome {
+		display: none!important;
+	}
+	.main-nav__login {
+		display: block!important;
+	}
+	.main-nav-user img {
+		max-width: 100%;
+	}
+	.balance {
+		width: 80%;
+		float: none;
+		margin: auto;
+	}
+	.balance-content {
+		width: 80%;
+	}
+	.balance-content .amount {
+		font-size: 25px;
+	}
+	.select-deposit__form input[type="text"] {
+		width: 65%;
+	}
+	.select-deposit__form input[type="submit"] {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.calc-account__repl {
+		width: 100%;
+	}
+	.calc-account__days-block {
+		width: 50%;
+	}
+	.deposit {
+		padding: 30px 0 0 0;
+	}
+	.select-deposit__form {
+		text-align: center;
+		margin-left: 30px;
+	}
+	.balance__form input[type="submit"] {
+		padding: 0 12px;
+		font-size: 12px;
+	}
+	.content-wrap h4 {
+		font-size: 17px;
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+		font-size: 16px;
+	}
+	.balance-content {
+		margin-top: 30px;
+	}
+	.select-deposit__table-block {
+		font-size: 14px;
+	}
+	.top-menu {
+		width: 100%;
+		z-index: 99;
+		background: #6f141f;
+	}
+	.top-menu-ru a {
+		box-shadow: none;
+	}
+	.state-account__block p {
+		font-size: 12px;
+	}
+	.state-account__amount {
+		font-size: 16px;
+	}
+	.calc-account__repl input {
+		width: 100%;
+		height: 30px;
+		margin: 5px 0;
+		padding-left: 5px;
+	}
+	.state-account__block {
+		width: 100%;
+	}
+	.state-account__block p {
+		text-align: center;
+	}
+	.list-active-deposit__wrap {
+		flex-direction: column;
+		padding: 18px 20px;
+		align-items: left;
+	}
+	.list-active-deposit__block {
+		padding: 20px 0;
+	}
+	.list-active-deposit__wrap a {
+		width: 100%;
+		padding: 20px 0;
+		margin-bottom: 5px;
+	}
+	.top-menu-ru a, .top-menu-en a {
+		font-size: 12px;
+	}
+	.payment-system h3 {
+		font-size: 16px;
+	}
+	.payment-system-wrap .tr .td {
+		padding: 10px 12px;
+		font-size: 14px;
+	}
+	.payment-system__form input[type="text"] {
+		width: 100%;
+	}
+	.payment-system__form input[type="submit"] {
+		width: 100%;
+		font-size: 11px;
+	}
+	.history-recharge h3 {
+		font-size: 18px;
+	}
+	.history-recharge-wrapper {
+		flex-direction: column;
+		text-align: center;
+	}
+	.history-recharge-wrapper__block {
+		padding: 10px 0;
+	}
+	.pay-wrapper__form input {
+		width: 85%;
+		margin-bottom: 5px;
+	}
+	.pay-wrapper__block-wrap {
+		flex-direction: column;
+	}
+	.pay-wrapper__form input {
+		display: block;
+		margin: 0 auto 5px auto;
+	}
+	.pay-wrapper h3 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.affilliate-block {
+		width: 85%;
+	}
+	.lists-referal .lists-referal-header {
+		font-size: 14px;
+		padding: 5px 10px;
+	}
+	.lists-referal-wrap {
+		flex-direction: column;
+		text-align: center;
+	}
+	.lists-referal-wrap {
+		line-height: 1;
+	}
+	.lists-referal-block {
+		justify-content: space-around;
+		font-size: 16px;
+	}
+	.main-nav {
+		position: static;
+	}
+	.top-menu-en a {
+		margin-left: 0;
+	}
+	.active {
+		display: block;
+		padding: 10px 20px;
+		box-shadow: inset 0 0 0 1px #fff;
+	}
+	.top-menu-lang {
+		display: block;
+		padding: 10px 20px;
+		margin-right: 0;
+	}
+	.main-nav {
+		position: static;
+		margin-top: 5px;
+	}
+	header {
+		position: static;
+	}
+	.content-wrap {
+		margin-top: 0;
+	}
+}
