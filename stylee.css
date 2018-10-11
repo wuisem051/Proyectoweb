@@ -259,7 +259,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 	font-family: "ProximaNovaBold";
 	cursor: pointer;
 	font-size: 16px;
-	color: #F3040F  ;
+	color: #Fff  ;
 	text-decoration: none;
 	border: 2px solid #fff;
 	-webkit-transition: .4s ease;
@@ -270,8 +270,8 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .affiliate-join:hover {
 	position: relative;
 	top: 1px;
-	background: #F3040F  ;
-	color: #7a121f;
+	background: #ee4b28   ;
+	color: #fff;
 }
 
 .deposit {
