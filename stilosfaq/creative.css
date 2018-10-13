@@ -1,0 +1,132 @@
+
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('fonts/proximanova-regular-webfont.eot');
+  src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/proximanova-regular-webfont.woff') format('woff'),
+  url('fonts/proximanova-regular-webfont.ttf') format('truetype'),
+  url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a  {color:#ED9A0A;}
+
+.clearfix {
+	clear: both;
+}
+/*contentTop*/
+.contentTopContainer {
+	width: 100%;
+	background: #ffffff;
+}
+.contentTopInner {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.contentTopInner h3 {
+	color: #0e2128;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0 50px;
+}
+.contentTopInner h3 span {
+	color: #d2411e;
+}
+.login-bg {
+	background: url(images/login-bg.jpg) #1E2C2F no-repeat center bottom;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.faq-page h2 {
+	 line-height: 39px;
+    border-radius: 3px;
+    background: #0e2128;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-left:15px;
+    font-weight:600;
+}
+
+.faq-page p {
+	    border-radius: 3px;
+		background: #eeeff0;
+		padding: 15px;
+}
+/*subpage*/
+.titlesubpageContainer {
+	    background: #ed9a0a;
+	width: 100%;
+}
+.titlesubpageinner {
+	width: 1170px;
+	margin: 0 auto;
+	font-size: 30px;
+	color: #eeeff0;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding: 70px 0;
+}
+.signup-bg {
+	border-radius:4px;
+	background: #335661;
+    width: 450px;
+    margin: 20px auto;
+    padding:20px;
+}
+
+.signup-bg table {margin-top:15px;}
+
+.signup-bg input[type="submit"] {width:100%; background:#D2411E;}
+
+.signup-bg  a {color:white;}
+
+
+.signup-bg table td {
+		background:#ea9817;
+		color:white; 
+		padding:10px;
+}
+
+.signup-bg label {display:block; }
+
+.signup-bg input[type="text"], .signup-bg  input[type="password"], .signup-bg  select, .signup-bg  textarea {
+	width:100%;
+}
+
+.register-page {width:90%; background:#EEEFF0; padding:15px;}
+
+.register-page a {color:#EB573A;}
+.signup-bg {overflow:hidden;}
+
+.signup-col {float:left; width:49%; margin:5px;}
+
+.signup-col label {display:block; font-weight:normal; }
+
+.signup-bg h2, .register-page h2 {
+    font-size: 14px;
+    color: #f1f5fe;
+    text-transform: uppercase;
+    line-height: 39px;
+    margin: 0;
+    background: #0e2128;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+

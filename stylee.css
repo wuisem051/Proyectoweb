@@ -410,6 +410,13 @@ body {font-size: 100%;font-family: 'Montserrat'}
 }
 
 
+.fondopreguntasfrecuentes {
+	padding: 100px 0  53px 0;
+	width: 100%;
+	background: url(img/cyber.jpg) no-repeat;
+	background-size: cover;
+}
+
 .fondo {
 	padding: 50px 0 53px 0;
 	width: 100%;
@@ -444,19 +451,19 @@ body {font-size: 100%;font-family: 'Montserrat'}
 }
 .statistic-part1 {
 	border-left: 0;
-	background: url(img/icon32.png) transparent no-repeat left center;
+	background: url(img/icon-stt1.png) transparent no-repeat left center;
 }
 .statistic-part2 {
-	background: transparent no-repeat left center;
+	background:url(img/icon-stt2.png) transparent no-repeat left center;
 }
 .statistic-part3 {
-	background: url(images/icon-stt3.png) transparent no-repeat left center;
+	background: url(img/icon-stt3.png) transparent no-repeat left center;
 }
 .statistic-part4 {
-	background: url(images/icon-stt4.png) transparent no-repeat left center;
+	background: url(img/icon-stt4.png) transparent no-repeat left center;
 }
 .statistic-part5 {
-	background: url(images/icon-stt5.png) transparent no-repeat left center;
+	background: url(img/icon-stt5.png) transparent no-repeat left center;
 }
 /*planContainer*/
 .planContainer {
@@ -949,3 +956,5 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .stats-account-part ul li span {
 	float: right;
 }
+    
+    
