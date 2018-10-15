@@ -130,3 +130,79 @@ a  {color:#ED9A0A;}
     margin-bottom:15px;
 }
 
+.titlesubpageinner {
+	width: 1170px;
+	margin: 0 auto;
+	font-size: 30px;
+	color: #eeeff0;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding: 20px 0;
+}
+.subpagectnContainer {
+	width: 100%;
+	background: #ffffff;
+}
+.subpagectnInner {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.signup-bg {
+	border-radius:4px;
+	background: #335661;
+    width: 450px;
+    margin: 20px auto;
+    padding:20px;
+}
+
+.signup-bg table {margin-top:15px;}
+
+.signup-bg input[type="submit"] {width:100%; background:#D2411E;}
+
+.signup-bg  a {color:white;}
+
+
+.signup-bg table td {
+		background:#ea9817;
+		color:white; 
+		padding:10px;
+}
+
+.signup-bg label {display:block; }
+
+.signup-bg input[type="text"], .signup-bg  input[type="password"], .signup-bg  select, .signup-bg  textarea {
+	width:100%;
+}
+
+.register-page {width:90%; background:#EEEFF0; padding:15px;}
+
+.register-page a {color:#EB573A;}
+.signup-bg {overflow:hidden;}
+
+.signup-col {float:left; width:49%; margin:5px;}
+
+.signup-col label {display:block; font-weight:normal; }
+
+.signup-bg h2, .register-page h2 {
+    font-size: 14px;
+    color: #f1f5fe;
+    text-transform: uppercase;
+    line-height: 39px;
+    margin: 0;
+    background: #0e2128;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+
+
+.signup-col2 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
