@@ -277,7 +277,7 @@ body {font-size: 100%;font-family: 'Montserrat'}
 .deposit {
 	width: 100%;
 	padding: 38px 0 25px 0;
-	background: url() no-repeat;
+
 	background-size: cover;
 }
 
@@ -291,14 +291,19 @@ body {font-size: 100%;font-family: 'Montserrat'}
 }
 
 .deposit-block {
-	width: 30%;
+	width: 40%;
 	margin-right: 50px;
+    	color: #fff;
+}
+
+.deposit-block-title{
+    color: #000;
 }
 
 .deposit-block h4 {
 	font-family: "ProximaNovaBold";
 	font-size: 18px;
-	color: #000;
+	color: #fff;
 }
 
 .deposit-block ul {
@@ -324,8 +329,8 @@ body {font-size: 100%;font-family: 'Montserrat'}
     height: 29px;
     float: left;
     line-height: 29px;
-    background:#FA7D00     ;
-    color: #000;
+    background:#03D679     ;
+    color:#67300A ;
     position: relative;
     font-family: "ProximaNovaBold";
     text-align: center;
@@ -336,8 +341,8 @@ body {font-size: 100%;font-family: 'Montserrat'}
     height: 29px;
     float: left;
     line-height: 29px;
-    background: #FA7D00  ;
-    color: #000;
+    background: #03D679 ;
+    color: #67300A;
     position: relative;
     font-family: "ProximaNovaBold";
     text-align: center;
@@ -372,10 +377,10 @@ body {font-size: 100%;font-family: 'Montserrat'}
     margin-left: 5px;
 }
 
-.deposit h5 {
+.deposit h1 {
 	font-family: "ProximaNovaBold";
 	font-size: 18px;
-	color: #000;
+	color: #fff;
 	text-align: center;
 	line-height: 25px;
 }
@@ -400,12 +405,6 @@ body {font-size: 100%;font-family: 'Montserrat'}
     color: #fff;
 	width: 100%;
 	background: url(img/cyber.jpg) no-repeat;
-	background-size: cover;
-}
-.company {
-	padding: 50px 0 53px 0;
-	width: 100%;
-	background: url(img/marketing.png) no-repeat;
 	background-size: cover;
 }
 
